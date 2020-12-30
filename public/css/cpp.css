@@ -1,0 +1,35 @@
+.a{
+    font-size: 90px;
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 10px;
+    opacity: 0.4;
+    margin-top: 25px;
+}
+
+
+.semua{
+    margin-top: 100px;
+}
+
+@media (max-width: 575.98px) { 
+
+    .card bg-danger text-white ml-5{
+        width: 20px;
+    }
+
+    .navbar-brand{
+        font-size : 12px;
+        width: 20px;
+        margin-left: 0px;
+    }
+    .table{
+        width: 10%;
+    }
+    .text-sm{
+        margin-top: 60px;
+        margin-right: center;
+    }
+    
+ }
