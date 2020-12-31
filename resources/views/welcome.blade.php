@@ -90,7 +90,7 @@
     
                             <h1><b>{{$data_penduduk}} </b></h1>
                         
-                        <a href="/datapenduduk"class="text-white">Detail Pengguna <i class="fas fa-angle-double-right"></i></a>
+                        <a href="/datapendudukguest"class="text-white">Detail Pengguna <i class="fas fa-angle-double-right"></i></a>
                      </div>
                 </div>
                 
@@ -107,7 +107,7 @@
                     @foreach ($danadesa as $ds)
                         <h1><b>{{$ds->total}} </b></h1>
                     @endforeach
-                        <a href="/rekapdana"class="text-white">Detail Anggaran <i class="fas fa-angle-double-right"></i></a>
+                        <a href="/rekapdanaguest"class="text-white">Detail Anggaran <i class="fas fa-angle-double-right"></i></a>
                      </div>
                
                 </div>
@@ -122,7 +122,7 @@
                         @foreach ($danaswadaya as $dd)
                             <h1><b>{{$dd->total}} </b></h1>
                         @endforeach
-                        <a href="/danaswadaya"class="text-white">Detail Anggaran <i class="fas fa-angle-double-right"></i></a>
+                        <a href="/danaswadayaguest"class="text-white">Detail Anggaran <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
